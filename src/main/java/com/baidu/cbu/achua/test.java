@@ -67,25 +67,7 @@ public class test extends HttpServlet {
 				return;
 			}
 		}
-		// String httpMethod = "PUT";
-		// String host = "gz.bcebos.com";
-		// String URI = "/v1/achuacui0101/apitestfile";
-		// String queryString = "";
-		// String body = "abcdefg";
-		// int expiresInSeconds = 1800;
-		// String accessKey = "763232cca91c44ec8dd7f9ee5d8020f1";
-		// String secretKey = "51d91b2fe266442da4af54c45c7a1f09";
-
-		// out.println(httpMethod);
-		// out.println(host);
-		// out.println(URI);
-		// out.println(queryString);
-		// out.println(body);
-		// out.println(expiresInSeconds);
-		// out.println(accessKey);
-		// out.println(secretKey);
-		// out.println(ddate);
-
+	
 		InterfaceTest.interfaceInvoke(httpMethod, host, URI, queryString, body, accessKey, secretKey, expiresInSeconds,
 				ddate, out, run);
 	}
