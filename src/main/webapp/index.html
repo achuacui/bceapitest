@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv=content-type content="text/html; charset=UTF-8">
+<head>
+<title>BCE API test</title>
+</head>
+<body>
+	<form action="test" method="post">
+		<table style="text-align: left">
+			<tr>
+				<td>httpMethod</td>
+				<td><select name="httpMethod">
+						<option value="GET">GET</option>
+						<option value="POST">POST</option>
+						<option value="PUT">PUT</option>
+						<option value="DELETE">DELETE</option>
+						<option value="HEAD">HEAD</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td>host</td>
+				<td><input type="text" name="host" value="bj.bcebos.com"
+					size="40" /></td>
+			</tr>
+			<tr>
+				<td>URI</td>
+				<td><input type="text" name="URI"
+					value="/v1/achuacuixxx/test.txt" size="40" /></td>
+			</tr>
+			<tr>
+				<td>queryString</td>
+				<td><input type="text" name="queryString" value="" size="40" /></td>
+			</tr>
+			<tr>
+				<td>body</td>
+				<td><input type="text" name="body" value="" size="40" /></td>
+			</tr>
+			<tr>
+				<td>expiresInSeconds</td>
+				<td><input type="text" name="expiresInSeconds" value="1800"
+					size="40" /></td>
+			</tr>
+			<tr>
+				<td>accessKey</td>
+				<td><input type="text" name="accessKey"
+					value="" size="40" /></td>
+			</tr>
+			<tr>
+				<td>secretKey</td>
+				<td><input type="text" name="secretKey"
+					value="" size="40" /></td>
+			</tr>
+			<tr>
+				<td title="time format: yyyy-MM-dd HH:mm:ss">date</td>
+				<td><input type="text" name="date" value="now" size="40"
+					title="time format: yyyy-MM-dd HH:mm:ss" /></td>
+			</tr>
+			<tr>
+				<td>options</td>
+				<td><input type="checkbox" name="option" value="check" >Run on server </td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input name="submit" value="提交" type="submit"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
