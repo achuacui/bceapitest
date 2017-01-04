@@ -1,4 +1,4 @@
-package com.baidu.inf.achua.utility;
+package com.baidu.cbu.achua.utility;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -21,7 +21,7 @@ import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
 
-import com.baidu.inf.achua.module.HeaderToSign;
+import com.baidu.cbu.achua.module.HeaderToSign;
 
 public class HttpUtil {
 

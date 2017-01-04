@@ -1,4 +1,4 @@
-package com.baidu.inf.achua.module;
+package com.baidu.cbu.achua.module;
 
 public class UserInfo {
 	public String userid = "56df644bb29d4ec3856ca2d0aa3497cf";

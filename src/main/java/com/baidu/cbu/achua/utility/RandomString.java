@@ -1,4 +1,4 @@
-package com.baidu.inf.achua.utility;
+package com.baidu.cbu.achua.utility;
 
 public class RandomString {
 	private static final String src_number = "0123456789";

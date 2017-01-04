@@ -1,16 +1,15 @@
-package com.baidu.inf.achua.module;
+package com.baidu.cbu.achua.module;
 
 import java.io.UnsupportedEncodingException;
 
-import com.baidu.inf.achua.utility.BCEAuthorization;
+import com.baidu.cbu.achua.utility.BCEAuthorization;
 
-public class queryStringToSign implements Comparable<queryStringToSign> {
-
+public class HeaderToSign implements Comparable<HeaderToSign> {
 	private String name;
-	private String value = "";
+	private String value;
 
-	public queryStringToSign(String name, String value) {
-		this.name = name;
+	public HeaderToSign(String name, String value) {
+		this.name = name.toLowerCase();
 		this.value = value;
 	}
 
@@ -31,18 +30,15 @@ public class queryStringToSign implements Comparable<queryStringToSign> {
 	}
 
 	@Override
-	public int compareTo(queryStringToSign o) {
+	public int compareTo(HeaderToSign o) {
 		return this.name.compareTo(o.name);
 	}
 
 	@Override
 	public String toString() {
 		try {
-			// if (value == null || "".equals(value)) {
-			// return this.getName();
-			// } else {
-			return BCEAuthorization.UriEncode(this.getName()) + "=" + BCEAuthorization.UriEncode(value);
-			// }
+			return this.getName() + ":"
+					+ BCEAuthorization.UriEncode(this.getValue());
 		} catch (UnsupportedEncodingException e) {
 			e.printStackTrace();
 		}

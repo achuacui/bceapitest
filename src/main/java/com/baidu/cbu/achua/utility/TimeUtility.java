@@ -1,4 +1,4 @@
-package com.baidu.inf.achua.utility;
+package com.baidu.cbu.achua.utility;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;

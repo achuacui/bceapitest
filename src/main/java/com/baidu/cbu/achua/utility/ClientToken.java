@@ -1,4 +1,4 @@
-package com.baidu.inf.achua.utility;
+package com.baidu.cbu.achua.utility;
 
 public class ClientToken {
 	public static String generate() {

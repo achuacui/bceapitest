@@ -1,4 +1,4 @@
-package com.baidu.achua;
+package com.baidu.cbu.achua;
 
 import java.io.IOException;
 import java.io.PrintWriter;

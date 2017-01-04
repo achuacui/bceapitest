@@ -1,4 +1,4 @@
-package com.baidu.inf.achua.utility;
+package com.baidu.cbu.achua.utility;
 
 import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
@@ -13,8 +13,8 @@ import java.util.List;
 import javax.crypto.Mac;
 import javax.crypto.spec.SecretKeySpec;
 
-import com.baidu.inf.achua.module.HeaderToSign;
-import com.baidu.inf.achua.module.queryStringToSign;
+import com.baidu.cbu.achua.module.HeaderToSign;
+import com.baidu.cbu.achua.module.queryStringToSign;
 
 public class BCEAuthorization {
 	private static final String DEFAULT_ENCODING = "UTF-8";

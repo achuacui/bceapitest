@@ -1,15 +1,15 @@
-package com.baidu.achua;
+package com.baidu.cbu.achua;
 
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import com.baidu.inf.achua.module.HeaderToSign;
-import com.baidu.inf.achua.module.UserInfo;
-import com.baidu.inf.achua.utility.BCEAuthorization;
-import com.baidu.inf.achua.utility.HttpUtil;
-import com.baidu.inf.achua.utility.TimeUtility;
+import com.baidu.cbu.achua.module.HeaderToSign;
+import com.baidu.cbu.achua.module.UserInfo;
+import com.baidu.cbu.achua.utility.BCEAuthorization;
+import com.baidu.cbu.achua.utility.HttpUtil;
+import com.baidu.cbu.achua.utility.TimeUtility;
 
 public class InterfaceTest {
 

@@ -1,4 +1,4 @@
-package com.baidu.inf.achua.utility;
+package com.baidu.cbu.achua.utility;
 
 import java.io.UnsupportedEncodingException;
 import java.security.InvalidKeyException;
