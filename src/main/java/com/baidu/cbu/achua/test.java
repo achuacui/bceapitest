@@ -46,6 +46,7 @@ public class test extends HttpServlet {
 		String httpMethod = request.getParameter("httpMethod");
 		String host = request.getParameter("host");
 		String URI = request.getParameter("URI");
+		String headers = request.getParameter("headers");
 		String queryString = request.getParameter("queryString");
 		String body = request.getParameter("body");
 		int expiresInSeconds = Integer.parseInt(request.getParameter("expiresInSeconds"));
@@ -67,8 +68,11 @@ public class test extends HttpServlet {
 				return;
 			}
 		}
-	
-		InterfaceTest.interfaceInvoke(httpMethod, host, URI, queryString, body, accessKey, secretKey, expiresInSeconds,
-				ddate, out, run);
+
+		// InterfaceTest.interfaceInvoke(httpMethod, host, URI, queryString,
+		// body, accessKey, secretKey, expiresInSeconds,
+		// ddate, out, run);
+		InterfaceTest.interfaceInvoke2(httpMethod, host, URI, headers, queryString, body, accessKey, secretKey,
+				expiresInSeconds, ddate, out, run);
 	}
 }
