@@ -57,6 +57,7 @@ public class test extends HttpServlet {
 		boolean run = "check".equals(option);
 		Date ddate = new Date();
 
+		response.setCharacterEncoding("UTF-8");
 		PrintWriter out = response.getWriter();
 
 		if (!"now".equals(date) && date != null && !"".equals(date)) {
