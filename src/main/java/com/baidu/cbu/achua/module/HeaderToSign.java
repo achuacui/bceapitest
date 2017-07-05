@@ -29,7 +29,6 @@ public class HeaderToSign implements Comparable<HeaderToSign> {
 		this.value = value;
 	}
 
-	@Override
 	public int compareTo(HeaderToSign o) {
 		return this.name.compareTo(o.name);
 	}

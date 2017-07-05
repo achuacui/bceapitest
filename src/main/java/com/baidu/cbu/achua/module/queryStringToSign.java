@@ -30,7 +30,6 @@ public class queryStringToSign implements Comparable<queryStringToSign> {
 		this.value = value;
 	}
 
-	@Override
 	public int compareTo(queryStringToSign o) {
 		return this.name.compareTo(o.name);
 	}
